@@ -10,7 +10,4 @@ import "../styles/index.css";
 //import components
 import Home from "./component/home.js";
 
-
-
-
 ReactDOM.render(<Home />, document.querySelector("#app"));
