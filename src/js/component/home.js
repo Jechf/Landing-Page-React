@@ -7,7 +7,6 @@ import { Navbarweb } from './navbar'
 import { Footerpage } from './footerpage'
 
 
-//create your first component
 const Home = () => {
 	return (
 		<div className="container-fluid mb-5">

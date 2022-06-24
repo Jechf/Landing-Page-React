@@ -1,12 +1,12 @@
 import React from 'react'
 import { Buttomcard } from './buttom';
 
-export const Card = () => {
+export const Card = (props) => {
   return (
     
     <div className='card m-3 border-0'>
     <div className="card text-center">
-         <img src="https://uncrate.com/p/2017/10/mercedes-300-sl-1.jpg" className="card-img-top" alt="logo"></img>
+         <img src={props.img} className="card-img-top" alt="logo"/>
             <div className="card-body">
               <h5 className="card-title">Mercedes-Benz 300 SL</h5>
               <p className="card-text">
