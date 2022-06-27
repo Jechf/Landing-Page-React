@@ -8,10 +8,9 @@ export const Card = (props) => {
     <div className="card text-center">
          <img src={props.img} className="card-img-top" alt="logo"></img>
             <div className="card-body">
-              <h5 className="card-title">Mercedes-Benz 300 SL</h5>
+              <h5 className="card-title">{props.tittle}</h5>
               <p className="card-text">
-                {/* todo prop para el texto */}
-              El Mercedes-Benz 300 SL (código de chasis W198) es un automóvil deportivo biplaza producido por el fabricante alemán Mercedes-Benz entre los años 1954 y 1963.
+                {props.tbody}              
               </p>
             <div className='card-footer'>
               <Buttomcard/>
