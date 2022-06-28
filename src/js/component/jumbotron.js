@@ -3,10 +3,10 @@ import { Buttomcard } from './buttom'
 
 export const Jumbotron = () => {
   return (
-    <div className='container bg-light'>
+    <div className='container bg-light mt-3'>
         <div className="jumbotron  jumbotron-fluid">
-         <h1 className="display-4">Hello, world!</h1>
-            <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+         <h1 className="display-4">Hola Fotografía!</h1>
+            <p className="lead">A continuacion te presentamos una pequeña muestra del mundo fotografico y sus diferentes propuestas</p>
             <p className="lead">
             <Buttomcard/>
             </p>

@@ -9,7 +9,7 @@ export const Card = (props) => {
          <img src={props.img} className="card-img-top" alt="logo"></img>
             <div className="card-body">
               <h5 className="card-title">{props.tittle}</h5>
-              <p className="card-text">
+              <p className="card-text" id="tructext">
                 {props.tbody}              
               </p>
             <div className='card-footer'>
